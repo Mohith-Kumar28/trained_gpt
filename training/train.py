@@ -36,5 +36,5 @@ def construct_index(directory_path):
     return index
 
 # Replace 'path_to_your_documents_directory' with the path to the directory containing your chatbot documents.
-documents_directory = './docs'
+documents_directory = 'training/docs'
 index = construct_index(documents_directory)
